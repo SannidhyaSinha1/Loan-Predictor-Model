@@ -208,4 +208,4 @@ Health check endpoint. Returns `{ "status": "ok" }`.
 
 **Sannidhya Sinha**  
 B.Tech CSE — VIT Vellore  
-[LinkedIn](https://linkedin.com/in/) · [GitHub](https://github.com/SannidhyaSinha1)
+[LinkedIn](www.linkedin.com/in/sannidhya-sinha-a19a56309) · [GitHub](https://github.com/SannidhyaSinha1)
