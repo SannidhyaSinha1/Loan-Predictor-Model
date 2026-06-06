@@ -76,4 +76,4 @@ def predict_repayment(application: LoanApplication):
             "input_features": input_features}
 
 if __name__ == '__main__':
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("PORT", 8000)))

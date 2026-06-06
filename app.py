@@ -3,6 +3,7 @@
 import streamlit as st
 import requests
 import json
+import os
 
 # --- Page Config ---
 st.set_page_config(page_title="Loan Predictor UI", page_icon="🧑‍💻", layout="wide")
@@ -10,8 +11,8 @@ st.set_page_config(page_title="Loan Predictor UI", page_icon="🧑‍💻", layo
 # --- API Configuration ---
 st.sidebar.header("API Configuration")
 st.sidebar.info("Ensure your API service is running.")
-api_url = st.sidebar.text_input("API Base URL", "http://127.0.0.1:8000")
-API_KEY = "My_LoanApp_key_tmgN30rJ"
+api_url = st.sidebar.text_input("API Base URL", "https://loan-predictor-api.onrender.com")
+API_KEY = os.getenv("API_KEY", "")
 
 # --- Main UI ---
 st.title('Loan Predictor Interface')
