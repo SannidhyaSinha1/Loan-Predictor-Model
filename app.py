@@ -11,7 +11,7 @@ st.set_page_config(page_title="Loan Predictor UI", page_icon="🧑‍💻", layo
 # --- API Configuration ---
 st.sidebar.header("API Configuration")
 st.sidebar.info("Ensure your API service is running.")
-api_url = st.sidebar.text_input("API Base URL", "https://loan-predictor-api.onrender.com")
+api_url = st.sidebar.text_input("API Base URL", "https://loan-predictor-api-9h1c.onrender.com")
 API_KEY = os.getenv("API_KEY", "")
 
 # --- Main UI ---
