@@ -186,13 +186,13 @@ Health check endpoint. Returns `{ "status": "ok" }`.
 
 | Metric | Score |
 |---|---|
-| Accuracy | *Add after evaluation* |
-| AUC-ROC | *Add after evaluation* |
-| Precision | *Add after evaluation* |
-| Recall | *Add after evaluation* |
-| F1 Score | *Add after evaluation* |
+| Accuracy | 0.6294 |
+| AUC-ROC | 0.6101 |
+| Precision | 0.8889 |
+| Recall | 0.6531 |
+| F1 Score | 0.7529 |
 
-> Evaluated on a held-out test set (20% stratified split).
+> Evaluated on a held-out test set (20% stratified split, real class distribution — SMOTE is applied only to the training fold, not before the split, so this reflects genuine generalization rather than leaked synthetic neighbors).
 
 ---
 
